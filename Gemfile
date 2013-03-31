@@ -11,9 +11,9 @@ gem "rspec-rails", :group => [:test, :development]
 
 group :test do  
   # time travel
-  gem 'delorean',   '~> 1.1.1'
+  gem 'delorean',   '>= 1.1'
 
-  gem 'cutter',     '~> 0.8.2'
+  gem 'cutter',     '>= 0.8.2'
 
   # data store
   gem 'database_cleaner',   '>= 0.8'
